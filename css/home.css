@@ -39,6 +39,8 @@ aside.ad a b {text-decoration:underline;}
 .history__saving .saving-box strong {margin:4px 0; font-size:12px; font-weight:300}
 .history__saving .saving-box strong .tit {display:block;}
 
+.history__recent {overflow-y:auto; height:400px;}
+.history__recent::-webkit-scrollbar {width:0;}
 .history__recent .day {margin-bottom:40px;}
 .history__recent .day strong {font-size:14px; font-weight:700;}
 .history__recent .day .price-status {float:right; color:#b4b4b4}
