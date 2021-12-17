@@ -3,23 +3,23 @@
 /* RESET */
 a {text-decoration:none; color:inherit}
 img {font-size:0;}
-button {border:none; outline:none; background:none; font-size:inherit; color:inherit; cursor:pointer}
+button {border:none; outline:none; background:none; padding:0; font-size:inherit; color:inherit; cursor:pointer}
 .sound-only{font-size:0; opacity:0;}
 
 /* COMMON */
-body {overflow:hidden; font-family:'Noto Sans KR', sans-serif; font-size:16px; font-weight:500; line-height:1.2; background:#fff;}
-.wrap {position:relative; min-height:100vh; margin:0 auto; padding-top:12px; background:#EEECE5; border-left:1px solid #ddd; border-right:1px solid #ddd; box-sizing:border-box}
+body {overflow:hidden; min-width:320px; font-family:'Noto Sans KR', sans-serif; font-size:18px; font-weight:500; line-height:1.2; letter-spacing:0.2px; background:#fff;}
+.wrap {position:relative; min-height:100vh; margin:0 auto; padding-top:24px; background:#EEECE5; border-left:1px solid #ddd; border-right:1px solid #ddd; box-sizing:border-box}
 .container {position:relative; width:92%; margin:0 auto;}
 .won::after {content:'원'; margin-left:.1em;}
 
 /* TAB-BAR */
-.tab-bar {position: fixed; bottom:0; width:100%; max-width:458px;background:linear-gradient(163.63deg, #00BDB2 11.35%, #C4E7B8 139.96%); z-index:9;}
-.tab-bar ul {display:flex; justify-content: space-between; width:92%; margin:0 auto; }
+.tab-bar {position: fixed; bottom:0; width:100%; max-width:718px;background:linear-gradient(163.63deg, #00BDB2 11.35%, #C4E7B8 139.96%); z-index:9;}
+.tab-bar ul {display:flex; justify-content: space-between; }
 .tab-bar ul li {flex-grow:1; text-align:center;}
-.tab-bar ul li a {display:flex; justify-content:center; align-items:center; height:76px; line-height:76px;}
-.tab-bar ul li a img{max-width:24%;}
+.tab-bar a {display:flex; justify-content:center; align-items:center; height:76px;}
+.tab-bar a img{max-width:28%;}
 
 /* MEDIA SCREEN */
-@media screen and (min-width:460px){
-  .wrap {max-width:460px;}
+@media screen and (min-width:720px){
+  .wrap {max-width:720px;}
 }
