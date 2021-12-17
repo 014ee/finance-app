@@ -13,13 +13,13 @@ body {overflow:hidden; min-width:320px; font-family:'Noto Sans KR', sans-serif; 
 .won::after {content:'원'; margin-left:.1em;}
 
 /* TAB-BAR */
-.tab-bar {position: fixed; bottom:0; width:100%; max-width:718px;background:linear-gradient(163.63deg, #00BDB2 11.35%, #C4E7B8 139.96%); z-index:9;}
+.tab-bar {position: fixed; bottom:0; width:100%; max-width:458px;background:linear-gradient(163.63deg, #00BDB2 11.35%, #C4E7B8 139.96%); z-index:9;}
 .tab-bar ul {display:flex; justify-content: space-between; }
 .tab-bar ul li {flex-grow:1; text-align:center;}
 .tab-bar a {display:flex; justify-content:center; align-items:center; height:76px;}
 .tab-bar a img{max-width:28%;}
 
 /* MEDIA SCREEN */
-@media screen and (min-width:720px){
-  .wrap {max-width:720px;}
+@media screen and (min-width:460px){
+  .wrap {max-width:460px;}
 }

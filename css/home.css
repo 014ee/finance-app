@@ -44,7 +44,7 @@ aside.ad a b {text-decoration:underline;}
 .history__saving .saving-box--creat {color:#FF5F00;}
 .history__saving .saving-box--creat .button--plus {display:inline-block; margin-right:4px; padding: 0.3em 0.6em; border-radius:50%; background:#FF5F00; color:#fff;}
 
-.history__recent {overflow-y:auto; height:400px;}
+.history__recent {overflow-y:auto; height:400px; -ms-overflow-style: none; scrollbar-width: none;}
 .history__recent::-webkit-scrollbar {width:0;}
 .history__recent .day {margin-bottom:40px;}
 .history__recent .day strong {font-size:14px; font-weight:700;}
