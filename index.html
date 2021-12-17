@@ -15,6 +15,10 @@
   <meta property="og:url" conetent="www.">
   <meta property="og:keywords" conetent="계좌관리, 돈관리, 금융비서, 소비패턴, 가계부, 오픈뱅킹, 이체, 송금">
 
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./css/common.css">
@@ -62,20 +66,23 @@
       </section>
       <section class="account__history">
         <h5 class="sound-only">거래내역</h5>
-        <div class="history__saving">
-          <div class="slider">
-            <div class="saving-box">
+        <div class="history__saving swiper savingSlider">
+          <div class="slider swiper-wrapper">
+            <div class="saving-box swiper-slide">
               <strong>
                 <span class="tit">여행가자!</span>
                 <span class="price won">842,200</span>
               </strong>
             </div>
-            <div class="saving-box">
+            <div class="saving-box swiper-slide">
               <strong>
                 <span class="tit">냉장고사기!</span>
                 <span class="price won">142,200</span>
               </strong>
             </div>
+            <button class="saving-box saving-box--creat swiper-slide">
+              <span class="button button--plus">+</span> 저금통 만들기
+            </button>
           </div>
         </div>
         <div class="history__recent container">

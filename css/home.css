@@ -34,10 +34,13 @@ aside.ad a b {text-decoration:underline;}
 .account__history {position:relative; width:100%; height:calc(100vh - 56px); padding:30px; border-radius:30px 30px 0 0; box-sizing:border-box;
   box-shadow:0 -5 14 rgba(0,0,0,.8);  /*transform:translateY(-33%);*/ background:#fff; z-index:1}
 .history__saving {overflow:hidden; margin-bottom:20px;}
-.history__saving .slider {display:flex; width:1000px; }
-.history__saving .saving-box {float:left; width:200px; margin-right:12px; padding:14px; box-sizing:border-box; border-radius:6px; background:#dadada; color:#fff;}
-.history__saving .saving-box strong {margin:4px 0; font-size:12px; font-weight:300}
+.history__saving .slider {display:flex; align-items:center;}
+.history__saving .saving-box {width:200px; padding:14px; box-sizing:border-box; border-radius:6px; background:#dadada; font-size:12px; color:#fff;}
+.history__saving .saving-box strong {margin:4px 0; font-weight:300}
 .history__saving .saving-box strong .tit {display:block;}
+.history__saving .saving-box--creat {background:none; text-align:left}
+.history__saving .saving-box--creat {color:#FF5F00;}
+.history__saving .saving-box--creat .button--plus {display:inline-block; margin-right:4px; padding: 0.5em 0.8em; border-radius:50%; background:#FF5F00; color:#fff;}
 
 .history__recent {overflow-y:auto; height:400px;}
 .history__recent::-webkit-scrollbar {width:0;}
