@@ -1,0 +1,51 @@
+/* HOME */
+.accout {}
+
+/* HOME > TITLE */
+.account__title {display:flex; justify-content:space-between; align-items:center; height:44px;}
+.account__title > * {flex-grow: 1; flex-basis:0; align-items: center;}
+.account__title .profile{height:100%}
+.account__title .profile img {height:100%; border:1px solid #DCCDB6; border-radius:50%; box-sizing:border-box;}
+.account__title h5.subtit{font-size:18px; text-align:center;}
+.account__title .option {text-align:right}
+.account__title .option li {display:inline-block;}
+.account__title .option li + li {margin-left:12px;}
+.account__title .option li a {display:block;}
+.account__title .option li a img {width:24px;  vertical-align:middle;}
+
+/* HOME > STATUS */
+.account__status {display:flex; flex-direction:column; align-items: center; margin-top:34px; margin-bottom:30px; text-align:center}
+.status__total {position:relative; width:80%; padding:20px; box-sizing:border-box; border-radius:12px; background:#fff; box-shadow: 0px 0px 16px rgba(226, 191, 66, 0.19);}
+.status__total h5 {font-size:14px; color:#858585;}
+.status__total .asset {display:block; padding:20px 0;}
+.status__total .asset .price {font-size:24px; font-weight:700;}
+.status__total .asset .price::after {font-size:14px;}
+.status__total .button--tranfer {position:absolute; right:20px; top:18px; font-size:14px; font-weight:700}
+.status__total .mygoal .chart {margin:0 auto; display:flex; align-items:flex-end; width:100%;}
+.status__total .mygoal .chart .bar {flex-grow:8; height:7px; margin-left:18px; border-radius:20px; background:#ddd;}
+.status__total .mygoal .chart .button-chart {flex-grow:.3; text-align:right;}
+.status__total .mygoal .chart .button-chart img {width:18px; vertical-align: bottom;}
+.status__total .mygoal p {margin-top:14px; font-size:16px; color:#858585;}
+aside.ad {margin-top:28px;}
+aside.ad a {display:block}
+aside.ad a b {text-decoration:underline;}
+
+/* HOME > HISTORY */
+.account__history {position:relative; width:100%; height:calc(100vh - 56px); padding:30px; border-radius:30px 30px 0 0; box-sizing:border-box;
+  box-shadow:0 -5 14 rgba(0,0,0,.8);  /*transform:translateY(-33%);*/ background:#fff; z-index:1}
+.history__saving {overflow:hidden; margin-bottom:20px;}
+.history__saving .slider {display:flex; width:1000px; }
+.history__saving .saving-box {float:left; width:200px; margin-right:12px; padding:14px; box-sizing:border-box; border-radius:6px; background:#dadada; color:#fff;}
+.history__saving .saving-box strong {margin:4px 0; font-size:12px; font-weight:300}
+.history__saving .saving-box strong .tit {display:block;}
+
+.history__recent .day {margin-bottom:40px;}
+.history__recent .day strong {font-size:14px; font-weight:700;}
+.history__recent .day .price-status {float:right; color:#b4b4b4}
+.history__recent .day ul {margin-top:6px;}
+.history__recent .day ul li {padding:12px 0;border-bottom:1px solid #DCDCDC; font-size:18px; font-weight:300}
+.history__recent .day ul li .price {float:right;}
+.history__recent .day ul li .price--income{position:relative; color:#FF5F00}
+.history__recent .day ul li .price--income::before {content:'+'; margin-right:.2em;}
+.account__history .button--more {position:absolute; top:0px; left:0; width:100%;}
+.account__history .button--more::after {content:''; display:inline-block; width:48px; height:3px; border-radius:4px; background:#c4c4c4; text-align:center}
