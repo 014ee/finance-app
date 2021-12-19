@@ -1,8 +1,8 @@
 /* HOME */
-.accout {}
+.accout {position:relative; background:#EEECE5;}
 
 /* HOME > TITLE */
-.account__title {display:flex; justify-content:space-between; align-items:center; height:43px;}
+.account__title {display:flex; justify-content:space-between; align-items:center; height:43px; padding-top:24px;}
 .account__title > * {flex-grow: 1; flex-basis:0; align-items: center;}
 .account__title .profile{height:100%}
 .account__title .profile img {height:100%; border:1px solid #DCCDB6; border-radius:50%; box-sizing:border-box;}
@@ -16,7 +16,7 @@
 /* HOME > STATUS */
 .account__status {display:flex; flex-direction:column; align-items: center; margin:30px auto; text-align:center}
 .status__total {position:relative; width:80%; padding:20px 18px 8px; box-sizing:border-box; border-radius:12px; background:#fff; box-shadow: 0 0 16px rgba(226, 191, 66, .19);}
-.status__total h5 {font-size:14px; color:#858585; opacity:.5;}
+.status__total h5 {font-size:14px; color:#858585;}
 .status__total .asset {display:block; padding:20px 0;}
 .status__total .asset .price {font-size:24px; letter-spacing:2px; font-weight:700;}
 .status__total .asset .price::after {font-size:14px;}
@@ -28,13 +28,14 @@
 .status__total .mygoal p {margin-top:16px; font-size:14px; color:#858585;}
 
 /* AD */
-aside.ad {margin-bottom:30px; font-size:14px; text-align:center}
-aside.ad a {display:block}
+aside.ad {margin-top:30px; font-size:14px; text-align:center}
+aside.ad a {display:inline-block}
 aside.ad a b {text-decoration:underline;}
 
 /* HOME > HISTORY */
 .account__history {position:relative; width:100%; height:calc(100vh - 56px); padding:24px 30px 0; border-radius:30px 30px 0 0; box-sizing:border-box;
-  box-shadow:0 -5px 14px rgba(0,0,0,.08);  /*transform:translateY(-33%);*/ background:#F5F5F5; z-index:1}
+  box-shadow:0 -5px 14px rgba(0,0,0,.08);  transform:translateY(0); background:#F5F5F5; z-index:1; transition:.4s;}
+.account__history.active { transform:translateY(-33%);}
 .history__saving {overflow:hidden; margin-bottom:20px;}
 .history__saving .slider {display:flex; align-items:center;}
 .history__saving .saving-box {width:162px; padding:9px 14px; box-sizing:border-box; border-radius:6px; background:#dadada; font-size:12px; color:#fff;}
@@ -54,5 +55,5 @@ aside.ad a b {text-decoration:underline;}
 .history__recent .day ul li .price {float:right;}
 .history__recent .day ul li .price--income{position:relative; color:#FF5F00}
 .history__recent .day ul li .price--income::before {content:'+'; margin-right:.2em;}
-.account__history .button--more {position:absolute; height:20px; top:0; left:0; width:100%; font-size:0;}
-.account__history .button--more::after {content:''; display:inline-block; position:absolute; top:4px; transform:translateX(-50%); width:48px; height:3px; border-radius:4px; background:#c4c4c4; text-align:center}
+.account__history .dragup {position:absolute; height:20px; top:0; left:0; width:100%; font-size:0; cursor:pointer}
+.account__history .dragup::after {content:''; display:inline-block; position:absolute; top:4px; left:50%; transform:translateX(-50%); width:48px; height:3px; border-radius:4px; background:#c4c4c4; text-align:center}

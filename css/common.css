@@ -8,7 +8,7 @@ button {border:none; outline:none; background:none; padding:0; font-size:inherit
 
 /* COMMON */
 body {overflow:hidden; min-width:320px; font-family:'Noto Sans KR', sans-serif; font-size:18px; font-weight:500; line-height:1.2; letter-spacing:0.2px; background:#fff;}
-.wrap {position:relative; min-height:100vh; margin:0 auto; padding-top:24px; background:#EEECE5; border-left:1px solid #ddd; border-right:1px solid #ddd; box-sizing:border-box}
+.wrap {min-height:100vh; margin:0 auto;}
 .container {position:relative; width:92%; margin:0 auto;}
 .won::after {content:'원'; margin-left:.1em;}
 

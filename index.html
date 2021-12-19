@@ -15,6 +15,9 @@
   <meta property="og:url" conetent="www.">
   <meta property="og:keywords" conetent="계좌관리, 돈관리, 금융비서, 소비패턴, 가계부, 오픈뱅킹, 이체, 송금">
 
+  <!-- CHART.JS -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+
   <!-- SWIPER -->
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
@@ -25,6 +28,7 @@
   <link rel="stylesheet" href="./css/home.css">
 
   <!-- JS -->
+  <script defer src="./js/chart.js"></script>
   <script defer src="./js/common.js"></script>
   <script defer src="./js/home.js"></script>
 </head>
@@ -33,7 +37,7 @@
     <nav class="tab-bar">
       <h3 class="sound-only">메뉴</h3>
       <ul class="container">
-        <li><a href="javascript:void(0)"><img src="./images/icon_home.png" alt="계좌관리"></a></li>
+        <li><a href="javascript:void(0)"><img src="./images/icon_home_on.png" alt="계좌관리"></a></li>
         <li><a href="javascript:void(0)"><img src="./images/icon_transfer.png" alt="이체하기"></a></li>
         <li><a href="javascript:void(0)"><img src="./images/icon_message.png" alt="메세지"></a></li>
         <li><a href="javascript:void(0)"><img src="./images/icon_option.png" alt="마이페이지"></a></li>
@@ -59,10 +63,10 @@
             <p><span class="period">5</span>일동안 <span class="price won">210,000</span> <span class="status">남음</span></p>
           </div>
         </div>
+        <aside class="ad container">
+          <a href="javascript:void(0)">지금 낮은 이자로 생활대출을 신청하세요! <b>Go</b></a>
+        </aside>
       </section>
-      <aside class="ad container">
-        <a href="javascript:void(0)">지금 낮은 이자로 생활대출을 신청하세요! <b>Go</b></a>
-      </aside>
       <section class="account__history">
         <h5 class="sound-only">거래내역</h5>
         <div class="history__saving swiper savingSlider">
@@ -113,7 +117,7 @@
             </ul>
           </div>
         </div>
-        <button class="button button--more"></button>
+        <div class="dragup" role="button"></div>
       </section>
     </section><!-- // account 1 -->
   </div>
