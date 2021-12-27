@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
 
-/* RESET */
+/* ADD RESET */
 a {text-decoration:none; color:inherit; -webkit-tap-highlight-color:transparent}
 img {font-size:0; -webkit-tap-hightlight-color:transparent}
 button {border:none; outline:none; background:none; padding:0; font-size:inherit; color:inherit; cursor:pointer; -webkit-tap-highlight-color:transparent;}
 .sound-only{font-size:0; opacity:0;}
 
-/* COLOR SETTING */
+/* COLOR */
 .bg--orange {background:#FF5F00}
 .bg--yellow {background:#FEB700}
 .bg--lemon {background:#FFDB4C;}
-.bg-sky blue {background:#55ACEE}
+.bg-skyblue {background:#55ACEE}
 .bg-blue{background:#0A73C3;}
 .bg-green {background:#005F59 }
 
-/* COMMON */
+/* COMMON LAYOUT */
 body {overflow:hidden; min-width:320px; font-family:'Noto Sans KR', sans-serif; font-size:18px; font-weight:500; line-height:1.2; letter-spacing:0.2px; background:#fff;}
 .wrap {min-height:100vh; margin:0 auto;}
 .container {position:relative; width:92%; margin:0 auto;}
