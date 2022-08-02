@@ -68,5 +68,12 @@
 		"classify": "mart",
 		"title": "Costco",
 		"price": 135000
+	},
+	{
+		"date": "2022-01-12",
+		"income": "out",
+		"classify": "mart",
+		"title": "문방구",
+		"price": 8000
 	}]
 }
