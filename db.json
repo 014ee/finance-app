@@ -1,79 +1,110 @@
 {
-	"bankList": [{
-		"date": "2021-09-01",
-		"income": "in",
-		"classify": "",
-		"title": "용돈",
-		"price": 20000
-	},
-	{
-		"date": "2021-09-25",
-		"income": "out",
-		"classify": "mart",
-		"title": "콘칩",
-		"price": 1500
-	},
-	{
-		"date": "2021-09-25",
-		"income": "out",
-		"classify": "shopping",
-		"title": "대파",
-		"price": 3100
-	},
-	{
-		"date": "2021-12-25",
-		"income": "out",
-		"classify": "eatout",
-		"title": "파스퇴르",
-		"price": 7000
-	},
-	{
-		"date": "2021-12-25",
-		"income": "out",
-		"classify": "shopping",
-		"title": "젤네일",
-		"price": 115000
-	},
-	{
-		"date": "2021-12-26",
-		"income": "in",
-		"classify": "",
-		"title": "아프리카TV",
-		"price": 236000
-	},
-	{
-		"date": "2021-12-26",
-		"income": "out",
-		"classify": "shopping",
-		"title": "블루투스 마우스",
-		"price": 116000
-	},
-	{
-		"date": "2022-01-11",
-		"income": "out",
-		"classify": "eatout",
-		"title": "아웃백 스테이크하우스",
-		"price": 114000
-	},
-	{
-		"date": "2022-01-12",
-		"income": "in",
-		"classify": "",
-		"title": "업비트",
-		"price": 370000
-	},
-	{
-		"date": "2022-01-12",
-		"income": "out",
-		"classify": "mart",
-		"title": "Costco",
-		"price": 135000
-	},
-	{
-		"date": "2022-01-12",
-		"income": "out",
-		"classify": "mart",
-		"title": "문방구",
-		"price": 8000
-	}]
+	"accountList": [
+		{
+			"account": {
+				"name": "생활비",
+				"number": "23-232117-34773",
+				"balance": 440000
+			},
+			"goals": {
+				"consumption": {
+					"target": 500000,
+					"expenditure": 290000,
+					"startDate": "2022-08-01",
+					"endDate": "2022-08-31"
+				},
+				"saving": [
+					{
+						"name": "여행가자!",
+						"target": 1000000,
+						"current": 800000
+					},
+					{
+						"name": "냉장고 사기",
+						"target": 2000000,
+						"current": 500000
+					}
+				]
+			},
+			"history": [
+				{
+					"date": "2021-09-01",
+					"income": "in",
+					"classify": "",
+					"title": "용돈",
+					"price": 20000
+				},
+				{
+					"date": "2021-09-25",
+					"income": "out",
+					"classify": "mart",
+					"title": "콘칩",
+					"price": 1500
+				},
+				{
+					"date": "2021-09-25",
+					"income": "out",
+					"classify": "shopping",
+					"title": "대파",
+					"price": 3100
+				},
+				{
+					"date": "2021-12-25",
+					"income": "out",
+					"classify": "eatout",
+					"title": "파스퇴르",
+					"price": 7000
+				},
+				{
+					"date": "2021-12-25",
+					"income": "out",
+					"classify": "shopping",
+					"title": "젤네일",
+					"price": 115000
+				},
+				{
+					"date": "2021-12-26",
+					"income": "in",
+					"classify": "",
+					"title": "아프리카TV",
+					"price": 236000
+				},
+				{
+					"date": "2021-12-26",
+					"income": "out",
+					"classify": "shopping",
+					"title": "블루투스 마우스",
+					"price": 116000
+				},
+				{
+					"date": "2022-04-11",
+					"income": "out",
+					"classify": "eatout",
+					"title": "아웃백 스테이크하우스",
+					"price": 114000
+				},
+				{
+					"date": "2022-08-02",
+					"income": "in",
+					"classify": "",
+					"title": "업비트",
+					"price": 370000
+				},
+				{
+					"date": "2022-08-03",
+					"income": "out",
+					"classify": "mart",
+					"title": "Costco",
+					"price": 135000
+				},
+				{
+					"date": "2022-08-03",
+					"income": "out",
+					"classify": "mart",
+					"title": "문방구",
+					"price": 8000
+				}
+			]
+		}
+	]
 }
