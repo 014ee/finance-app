@@ -2,7 +2,7 @@
 	"accountList": [
 		{
 			"account": {
-				"name": "생활비",
+				"title": "생활비",
 				"number": "23-232117-34773",
 				"balance": 440000
 			},
@@ -15,12 +15,12 @@
 				},
 				"saving": [
 					{
-						"name": "여행가자!",
+						"title": "여행가자!",
 						"target": 1000000,
 						"current": 800000
 					},
 					{
-						"name": "냉장고 사기",
+						"title": "냉장고 사기",
 						"target": 2000000,
 						"current": 500000
 					}
