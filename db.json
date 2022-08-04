@@ -2,7 +2,7 @@
 	"accountList": [
 		{
 			"info": {
-				"title": "생활비",
+				"nickname": "생활비",
 				"number": "23-232117-34773",
 				"balance": 440000
 			},
@@ -101,7 +101,7 @@
 		},
 		{
 			"info": {
-				"title": "의민이 용돈",
+				"nickname": "의민이 용돈",
 				"number": "23-238442-34542",
 				"balance": 300000
 			},
