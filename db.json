@@ -29,70 +29,70 @@
 			"history": [
 				{
 					"date": "2022-04-01",
-					"income": "in",
+					"income": true,
 					"classify": "",
 					"title": "용돈",
 					"price": 20000
 				},
 				{
 					"date": "2022-04-02",
-					"income": "out",
+					"income": false,
 					"classify": "mart",
 					"title": "콘칩",
 					"price": 1500
 				},
 				{
 					"date": "2022-05-24",
-					"income": "out",
+					"income": false,
 					"classify": "mart",
 					"title": "대파",
 					"price": 3100
 				},
 				{
 					"date": "2022-05-24",
-					"income": "out",
+					"income": false,
 					"classify": "mart",
 					"title": "파스퇴르",
 					"price": 7000
 				},
 				{
 					"date": "2022-06-25",
-					"income": "out",
+					"income": false,
 					"classify": "entertainment",
 					"title": "젤네일",
 					"price": 115000
 				},
 				{
 					"date": "2022-06-26",
-					"income": "in",
+					"income": true,
 					"classify": "point",
 					"title": "아프리카TV",
 					"price": 236000
 				},
 				{
 					"date": "2022-06-26",
-					"income": "out",
+					"income": false,
 					"classify": "shopping",
 					"title": "블루투스 마우스",
 					"price": 116000
 				},
 				{
 					"date": "2022-07-11",
-					"income": "out",
+					"income": false,
 					"classify": "eatout",
 					"title": "아웃백 스테이크하우스",
 					"price": 114000
 				},
 				{
 					"date": "2022-08-02",
-					"income": "in",
+					"income": true,
 					"classify": "investment",
 					"title": "업비트",
 					"price": 370000
 				},
 				{
 					"date": "2022-08-03",
-					"income": "out",
+					"income": false,
 					"classify": "mart",
 					"title": "Costco",
 					"price": 135000
@@ -128,70 +128,70 @@
 			"history": [
 				{
 					"date": "2022-04-01",
-					"income": "out",
+					"income": false,
 					"classify": "shopping",
 					"title": "문방구",
 					"price": 8000
 				},
 				{
 					"date": "2022-04-25",
-					"income": "out",
+					"income": false,
 					"classify": "mart",
 					"title": "컵라면",
 					"price": 1500
 				},
 				{
 					"date": "2022-04-25",
-					"income": "out",
+					"income": false,
 					"classify": "mart",
 					"title": "아이스크림",
 					"price": 500
 				},
 				{
 					"date": "2022-05-25",
-					"income": "out",
+					"income": false,
 					"classify": "entertainment",
 					"title": "CGV",
 					"price": 18000
 				},
 				{
 					"date": "2022-06-25",
-					"income": "out",
+					"income": false,
 					"classify": "entertainment",
 					"title": "보드게임",
 					"price": 30000
 				},
 				{
 					"date": "2022-07-26",
-					"income": "in",
+					"income": true,
 					"classify": "",
 					"title": "아빠 용돈",
 					"price": 20000
 				},
 				{
 					"date": "2022-08-01",
-					"income": "out",
+					"income": false,
 					"classify": "eatout",
 					"title": "떡볶이",
 					"price": 4000
 				},
 				{
 					"date": "2022-08-01",
-					"income": "out",
+					"income": false,
 					"classify": "transport",
 					"title": "버스",
 					"price": 1000
 				},
 				{
 					"date": "2022-08-02",
-					"income": "out",
+					"income": false,
 					"classify": "eatout",
 					"title": "짜장면",
 					"price": 5000
 				},
 				{
 					"date": "2022-08-03",
-					"income": "out",
+					"income": false,
 					"classify": "shopping",
 					"title": "문방구",
 					"price": 8000
