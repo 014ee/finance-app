@@ -3,13 +3,13 @@
 		{
 			"info": {
 				"nickname": "생활비",
-				"number": "23-232117-34773",
+				"accountNumber": "23-232117-34773",
 				"balance": 440000
 			},
 			"goals": {
 				"consumption": {
 					"target": 500000,
-					"expenditure": 290000,
+					"expended": 290000,
 					"startDate": "2022-08-01",
 					"endDate": "2022-08-31"
 				},
@@ -17,12 +17,12 @@
 					{
 						"title": "여행가자!",
 						"target": 1000000,
-						"current": 800000
+						"saved": 800000
 					},
 					{
 						"title": "냉장고 사기",
 						"target": 2000000,
-						"current": 500000
+						"saved": 500000
 					}
 				]
 			},
@@ -102,13 +102,13 @@
 		{
 			"info": {
 				"nickname": "의민이 용돈",
-				"number": "23-238442-34542",
+				"accountNumber": "23-238442-34542",
 				"balance": 300000
 			},
 			"goals": {
 				"consumption": {
 					"target": 300000,
-					"expenditure": 10000,
+					"expended": 10000,
 					"startDate": "2022-08-01",
 					"endDate": "2022-08-31"
 				},
@@ -116,12 +116,12 @@
 					{
 						"title": "게임기^^",
 						"target": 300000,
-						"current": 140000
+						"saved": 140000
 					},
 					{
 						"title": "기부실천!",
 						"target": 100000,
-						"current": 30000
+						"saved": 30000
 					}
 				]
 			},
