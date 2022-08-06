@@ -1,0 +1,320 @@
+{
+	"accountList": [
+		{
+			"info": {
+<<<<<<< HEAD
+				"title": "생활비",
+				"number": "23-232117-34773",
+=======
+				"nickname": "생활비",
+				"accountNumber": "23-232117-34773",
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+				"balance": 440000
+			},
+			"goals": {
+				"consumption": {
+					"target": 500000,
+<<<<<<< HEAD
+					"expenditure": 290000,
+=======
+					"expended": 290000,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"startDate": "2022-08-01",
+					"endDate": "2022-08-31"
+				},
+				"saving": [
+					{
+						"title": "여행가자!",
+						"target": 1000000,
+<<<<<<< HEAD
+						"current": 800000
+=======
+						"saved": 800000
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					},
+					{
+						"title": "냉장고 사기",
+						"target": 2000000,
+<<<<<<< HEAD
+						"current": 500000
+=======
+						"saved": 500000
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					}
+				]
+			},
+			"history": [
+				{
+					"date": "2022-04-01",
+<<<<<<< HEAD
+					"income": "in",
+=======
+					"income": true,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "",
+					"title": "용돈",
+					"price": 20000
+				},
+				{
+					"date": "2022-04-02",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "mart",
+					"title": "콘칩",
+					"price": 1500
+				},
+				{
+					"date": "2022-05-24",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "mart",
+					"title": "대파",
+					"price": 3100
+				},
+				{
+					"date": "2022-05-24",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "mart",
+					"title": "파스퇴르",
+					"price": 7000
+				},
+				{
+					"date": "2022-06-25",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "entertainment",
+					"title": "젤네일",
+					"price": 115000
+				},
+				{
+					"date": "2022-06-26",
+<<<<<<< HEAD
+					"income": "in",
+=======
+					"income": true,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "point",
+					"title": "아프리카TV",
+					"price": 236000
+				},
+				{
+					"date": "2022-06-26",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "shopping",
+					"title": "블루투스 마우스",
+					"price": 116000
+				},
+				{
+					"date": "2022-07-11",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "eatout",
+					"title": "아웃백 스테이크하우스",
+					"price": 114000
+				},
+				{
+					"date": "2022-08-02",
+<<<<<<< HEAD
+					"income": "in",
+=======
+					"income": true,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "investment",
+					"title": "업비트",
+					"price": 370000
+				},
+				{
+					"date": "2022-08-03",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "mart",
+					"title": "Costco",
+					"price": 135000
+				}
+			]
+		},
+		{
+			"info": {
+<<<<<<< HEAD
+				"title": "의민이 용돈",
+				"number": "23-238442-34542",
+=======
+				"nickname": "의민이 용돈",
+				"accountNumber": "23-238442-34542",
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+				"balance": 300000
+			},
+			"goals": {
+				"consumption": {
+					"target": 300000,
+<<<<<<< HEAD
+					"expenditure": 10000,
+=======
+					"expended": 10000,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"startDate": "2022-08-01",
+					"endDate": "2022-08-31"
+				},
+				"saving": [
+					{
+						"title": "게임기^^",
+						"target": 300000,
+<<<<<<< HEAD
+						"current": 140000
+=======
+						"saved": 140000
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					},
+					{
+						"title": "기부실천!",
+						"target": 100000,
+<<<<<<< HEAD
+						"current": 30000
+=======
+						"saved": 30000
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					}
+				]
+			},
+			"history": [
+				{
+					"date": "2022-04-01",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "shopping",
+					"title": "문방구",
+					"price": 8000
+				},
+				{
+					"date": "2022-04-25",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "mart",
+					"title": "컵라면",
+					"price": 1500
+				},
+				{
+					"date": "2022-04-25",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "mart",
+					"title": "아이스크림",
+					"price": 500
+				},
+				{
+					"date": "2022-05-25",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "entertainment",
+					"title": "CGV",
+					"price": 18000
+				},
+				{
+					"date": "2022-06-25",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "entertainment",
+					"title": "보드게임",
+					"price": 30000
+				},
+				{
+					"date": "2022-07-26",
+<<<<<<< HEAD
+					"income": "in",
+=======
+					"income": true,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "",
+					"title": "아빠 용돈",
+					"price": 20000
+				},
+				{
+					"date": "2022-08-01",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "eatout",
+					"title": "떡볶이",
+					"price": 4000
+				},
+				{
+					"date": "2022-08-01",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "transport",
+					"title": "버스",
+					"price": 1000
+				},
+				{
+					"date": "2022-08-02",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "eatout",
+					"title": "짜장면",
+					"price": 5000
+				},
+				{
+					"date": "2022-08-03",
+<<<<<<< HEAD
+					"income": "out",
+=======
+					"income": false,
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
+					"classify": "shopping",
+					"title": "문방구",
+					"price": 8000
+				}
+			]
+		}
+	]
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> b809be34cc395b8dfc5be9b93595c825d7535c6b
