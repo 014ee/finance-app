@@ -183,6 +183,7 @@
   overflow: hidden;
   position: relative;
   width: 162px;
+  margin-right: 12px;
   padding: 9px 14px;
   box-sizing: border-box;
   border-radius: 6px;

@@ -30,7 +30,6 @@ export default function setSavingGoalsView(data) {
 
   new Swiper('.history__saving', {
     slidesPerView: 'auto',
-    spaceBetween: 12,
   });
 
   container.innerHTML = `
