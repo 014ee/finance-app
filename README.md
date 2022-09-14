@@ -9,6 +9,8 @@
 - HTML
 - CSS
 - JavaScript
+- babel
+- parcel
 - swiper
 
 ## 구현한 기능
