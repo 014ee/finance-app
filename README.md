@@ -11,6 +11,9 @@
 - JavaScript
 - babel
 - parcel
+- prettier
+- eslint
+- postcss
 - swiper
 
 ## 구현한 기능
